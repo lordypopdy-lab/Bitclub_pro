@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
-const useCryptoPrices = () => {
+import React from 'react'
+
+const UseCryptoPrices = () => {
   const [prices, setPrices] = useState({}); // Keyed by symbol
 
   useEffect(() => {
@@ -35,6 +37,7 @@ const useCryptoPrices = () => {
       </ul>
     </div>
   );
-};
+}
 
-export default useCryptoPrices;
+export default UseCryptoPrices
+
