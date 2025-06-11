@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-import React from 'react'
-
 const UseCryptoPrices = () => {
   const [prices, setPrices] = useState({}); // Keyed by symbol
 
